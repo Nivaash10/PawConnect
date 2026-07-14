@@ -6,7 +6,8 @@ import Register from "../pages/Register/Register";
 import Marketplace from "../pages/Marketplace/Marketplace";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
-import AIAssistant from "../pages/AIAssistant/AIAssistant"; // <-- IMPORTANT
+import AIAssistant from "../pages/AIAssistant/AIAssistant"; 
+
 
 function AppRoutes() {
   return (
@@ -19,6 +20,7 @@ function AppRoutes() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/marketplace" element={<Marketplace />} />
       </Routes>
     </BrowserRouter>
   );
