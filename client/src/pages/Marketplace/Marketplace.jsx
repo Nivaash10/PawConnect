@@ -3,6 +3,7 @@ import FilterBar from "./sections/FilterBar";
 import PetGrid from "./sections/PetGrid";
 import Footer from "../Home/sections/Footer";
 
+
 function Marketplace() {
   return (
     <>
